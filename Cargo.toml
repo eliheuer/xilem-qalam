@@ -4,3 +4,6 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+masonry = "0.2.0"
+winit = "0.30.5"
+xilem = "0.1.0"
