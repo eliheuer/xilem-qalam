@@ -1,8 +1,6 @@
-use masonry;
-use masonry::{dpi, widget};
+use masonry::dpi;
 use winit::window;
-use xilem;
-use xilem::view;
+use xilem::{self, view};
 
 struct HelloWorld;
 
@@ -18,4 +16,3 @@ fn main() {
 fn app_logic(_: &mut HelloWorld) -> impl xilem::WidgetView<HelloWorld> {
     view::label("Hello, World!")
 }
-    
