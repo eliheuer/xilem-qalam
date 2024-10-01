@@ -8,3 +8,4 @@ rand = "0.8.5"
 xilem   = { git = "https://github.com/linebender/xilem.git" }
 masonry = { git = "https://github.com/linebender/xilem.git" }
 winit = "0.30.5"
+norad = "0.14.1"
