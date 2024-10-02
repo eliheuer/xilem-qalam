@@ -1,6 +1,6 @@
 //! A font editor.
 
-use runebender_lib::data::{AppState, Workspace};
+use qalam_lib::data::{AppState, Workspace};
 
 use masonry::dpi;
 use winit::window;
